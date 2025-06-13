@@ -1,3 +1,4 @@
+
 services:
   spark-iceberg:
     image: tabulario/spark-iceberg
