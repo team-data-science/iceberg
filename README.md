@@ -7,7 +7,7 @@ This project demonstrates how to use Apache Iceberg with Spark and MinIO for mod
 
 - `docker-compose.yml`: Defines the services for Spark, Iceberg REST catalog, MinIO (S3-compatible storage), and MinIO client.
 - `data/`: Contains sample datasets in Parquet and CSV formats for use in the warehouse.
-- `warehouse/`: The storage location for Iceberg tables managed by Spark and Iceberg REST.
+- `warehouse/`: The storage location for tables of the default Spark catalog (not managed by Iceberg).
 - `notebooks/`: Jupyter notebooks for interactive exploration and learning.
 
 ## How to Run
