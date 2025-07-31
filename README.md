@@ -16,7 +16,7 @@ This project demonstrates how to use Apache Iceberg with Spark and MinIO for mod
    Open a terminal in the project directory and run:
    
    ```sh
-   docker-compose up
+   docker-compose up -d
    ```
 
 2. **Access Jupyter Notebook:**
